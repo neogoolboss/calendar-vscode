@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="styles/mainStyle.css">
+    <link rel="stylesheet" href="styles/headerStyle.css">
+    <link rel="stylesheet" href="styles/navbarStyle.css">
+    <link rel="stylesheet" href="styles/myStyle.css">
+    <link rel="stylesheet" href="styles/detailStyle.css">
+    <link rel="stylesheet" href="styles/modalStyle.css">
+    <link rel="stylesheet" href="styles/footerStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap">
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-area">
+            <!--Heade Start-->
+            <div class="header-container">
+                <div onclick="location.href='/'" class="logo">
+                    <p class="gym">Gym</p>
+                    <div class="home">家</div>
+                </div>
+                <img class="profile" src="/images/윤수빈.png">
+                <div class="welcome">
+                    <p>환영합니다, </p>
+                    <span>윤수빈</span>
+                    <p>대표님!</p>
+                </div>
+                <img class="icon1" src="/images/Alarm.png">
+                <img class="icon2" src="/images/Gear.png">
+                <img class="icon2" src="/images/Logout.png">
+            </div>
+            <!--Header End-->
+            
+            <!--Main Start-->
+            <div class="main-container">
+                <!--Navbar Start-->
+                <div class="navbar-container">
+                    <div class="category-container">
+                        <div class="category-icon">
+                            <img src="/images/매출조회.png">
+                            <p>매출 조회</p>
+                        </div>
+                        <div class="category-icon">
+                            <img src="/images/회원조회.png">
+                            <p>회원 조회</p>
+                        </div>
+                        <div class="category-icon">
+                            <img src="/images/직원조회.png">
+                            <p>직원 조회</p>
+                        </div>
+                        <div class="category-icon">
+                            <img src="/images/이용권관리.png">
+                            <p>이용권 관리</p>
+                        </div>
+                        <div class="category-icon" onclick="location.href='/schedule/schedulemain'">
+                            <img src="/images/일정관리.png">
+                            <p>일정 조회</p>
+                        </div>
+                        <div class="category-icon" onclick="location.href='/schedule/schedulelist'">
+                            <img src="/images/시설관리.png">
+                            <p>시설 관리</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Navbar End-->
+                <!--개인 작업 시작-->
+                <div class="my-style">
+                    <div class="detail-container">
+                        <div class="white-board">
+                            <div class="white-board-header">
+                                <img src="/images/back.png">
+                                <div class="time-user">09시 00분 히비키 회원님</div>
+                                <p class="change">변경</p>
+                                <p class="cancel">취소</p>
+                            </div>
+                            <div class="class-info-top">
+                                <p>수업정보</p>
+                                <p class="regist-info">생성일 : 2024년 02월 29일 (목) 23시 59분 남효정</p>
+                            </div>
+                            <div class="table-container">
+                                <table>
+                                    <tr>
+                                        <th>일정 유형</th>
+                                        <th>일정</th>
+                                        <th>시간</th>
+                                        <th>정원</th>
+                                        <th>강사</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1:1 개인수업</td>
+                                        <td>1:1 2024.04.24(수)</td>
+                                        <td>09:00 ~ 10:00</td>
+                                        <td>1명</td>
+                                        <td>북효정</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="join-member-text">
+                                <p>참여 회원</p>
+                            </div>
+                            <div class="join-member-container">
+                                <div class="join-member-info">
+                                    <div class="member-change-name">사쿠라 히비키</div>
+                                    <div class="member-change-info">
+                                        <div class="phone-passname-use">
+                                            <p>전화번호</p>
+                                            <p>이용권 명</p>
+                                            <p>잔여 횟수</p>
+                                        </div>
+                                        <div class="th-phone-passname-use">
+                                            <p>010-1234-5678</p>
+                                            <p>1:1 PT</p>
+                                            <p>10회</p>
+                                        </div>
+                                        <div class="atten-total">
+                                            <p>출결상태</p>
+                                            <p>이용권 명</p>
+                                        </div>
+                                        <div class="th-atten-total">
+                                            <p>예약</p>
+                                            <p>총 횟수</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="atten-container">
+                                    <div class="atten-button-container">
+                                        <button class="absent">결석</button>
+                                        <button class="atten">출석</button>
+                                    </div>
+                                    <div class="member-detail-container">
+                                        <button>회원상세</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--개인 작업 종료-->
+            </div>
+            <!--Main End-->
+
+            <!--Footer Start-->
+            <div class="footer-container">
+                <div class="big-font">About</div>
+                <div class="big-font">Email</div>
+                <div class="big-font">Tel.</div>
+                <div class="small-font">
+                    <p>Website Terms</p>
+                    <div class="cut">|</div>
+                    <p>Privacy Policy</p>
+                    <div class="cut">|</div>
+                    <p>Accessbility Statement</p>
+                </div>
+                <div class="c">©</div>
+                <div class="copy">copyright. all rights reserved</div>
+            </div>
+            <!--Footer End-->
+        </div>
+    </div>
+
+
+</body>
+</html>
